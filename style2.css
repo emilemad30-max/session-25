@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.parent{
+    width: 30%;
+    color: black;
+    text-align: center;
+}
+.parent h2{
+    font-size: 60px;
+    margin-top: 80px;
+    /* margin-bottom: 160px; */
+
+}
+.parent .input{
+    height: 40vh;
+    background-color:cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.parent .input input{ 
+    font-size: 20px;
+    padding: 5px;
+}
+.parent .input button{ 
+    font-size: 20px;
+    padding: 5px;
+}

@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.parent{
+    height: 100vh;
+    width: 40%;
+    background-color: brown;
+}
+h2{
+    font-size: 45px;
+    text-align: center;
+    padding: 50px;
+}
+.parent #register{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.parent #register #namee{
+    font-size: 20px;
+}
+.parent #register #emaill{
+    font-size: 20px;
+}
+.parent #register #passwordd{
+    font-size: 20px;
+}
+.parent #register #submit{
+    font-size: 20px;
+}
+/* ________________________________________________ */
+.parent1{
+    height: 100vh;
+    width: 40%;
+    background-color: brown;
+}
+.parent1 #Login{
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.parent1 #Login #email2{
+    font-size: 20px;
+}
+.parent1 #Login #password2{
+    font-size: 20px;
+}
+.parent1 #Login #submit{
+    font-size: 20px;
+}
