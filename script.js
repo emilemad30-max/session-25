@@ -15,7 +15,7 @@ register.addEventListener("submit",function(e){
     // console.log(localStorage.getItem("email"));
     // console.log(localStorage.getItem("password"));
     alert("Logged in successfully.")
-    window.location.href = 'index2.html'
+    window.location.href = 'login.html'
 })
 }
 // _______________________________________________________________
@@ -35,7 +35,7 @@ Login.addEventListener("submit",function(e){
 
     if (email2.value===savedemail && password2.value===savedpassword) {
         alert("Logged in successfully.")
-        window.location.href = 'index3.html'
+        window.location.href = 'home.html'
     } else {
         alert("The data is incorrect.")
     }
